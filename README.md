@@ -41,6 +41,7 @@ plugin 'cocoapods-keys', {
 #### 注意
 * `.env` がプロジェクトのルートにない状態で `pod install` しない
     * Keychainに値を保存しようとしてしまうため
+* 場合によっては`.gitignore`に`.env`を追加する
 
 ## 4. `pod install` する
 
